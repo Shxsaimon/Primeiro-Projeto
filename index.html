@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="./src/imagens/imagens/No-Mans-Sky-Logo.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>O Início - No Man's Sky</title>
+    
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Video-nms.mp4" type="video/mp4">
+        </video>
+    </div> 
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/imagens/Logo-no-mans-sky.png" alt="logo no man's sky">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-título" src="./src/imagens/imagens/Titulo-no-mans-sky.png"
+                alt="imagem do título no mans sky">
+            <p class="descricao"> No Man's Sky foi o jogo com maior hype para seu lançamento em 2016 por prometer uma grande gama de possibilidades porém ficou realmente conhecido por não entregar nada do prometido.</p>
+            <p class="descricao">Mas você sabe como está o game hoje, 6 anos após o seu lançamento? Se ficou interessado, dê uma olhada no game que hoje tem uma das maiores redenções já vista pela comunidade dos jogos eletrônicos.</p>
+            <button class="botao-saiba-mais">Saiba Mais</button>
+        </div>
+        <img class="personagens" src="./src/imagens/imagens/no-mans-sky-chars.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/709WkV7nJ7k" title="video vale a pena jogar" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
