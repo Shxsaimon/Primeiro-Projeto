@@ -1,0 +1,1 @@
+A simple yet stylish landing page built with JavaScript and plenty of CSS, featuring interactive buttons and linking to a YouTube video that highlights the page’s main focus: the popular video game No Man’s Sky .
